@@ -1,18 +1,12 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #e18aec;
-    margin: 0;
+.card {
+    background-color: #e8b0f5;
     padding: 20px;
-    animation: myanimation 2s infinite;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
   }
   
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-  
-  p {
-    line-height: 1  1.5;
+  .card:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
   }
