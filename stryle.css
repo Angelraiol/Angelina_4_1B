@@ -1,21 +1,16 @@
-header {
-    background-color: #c578c1a8; /* Cor de fundo cinza claro */
-}
-
-section {
-    background-color: #ff338b9a; /* Cor de fundo cinza um pouco mais escuro */
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-section {
-    background-color: #f0f0f0;
-    padding: 10px;
-}
+/* styles.css */
 body {
-    background-color: #dcb1ed; /* Cor de fundo cinza claro */
-}    
+    font-family: Arial, sans-serif;
+    background-color: #e18aec;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1  1.5;
+  }
