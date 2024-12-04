@@ -1,23 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Meu Site de Química</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Química</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .video-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .video-list li {
+            margin: 10px 0;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Química!</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">Química Geral</a></li>
-      <li><a href="#">Química Orgânica</a></li>
-      <li><a href="#">Tabela Periódica</a></li>
+
+<header>
+    <h1>Bem-vindo ao Mundo da Química!</h1>
+    <nav>
+        <a href="#videos">Vídeos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h2>Sobre a Química</h2>
+    <p>A química é a ciência que estuda a composição, estrutura, propriedades e transformações da matéria. É uma área fundamental para entender o mundo ao nosso redor, suas interações e a base de muitos processos industriais e biológicos.</p>
+</section>
+
+<section id="videos">
+    <h2>Vídeos sobre Química</h2>
+    <ul class="video-list">
+        <li><a href="https://www.youtube.com/watch?v=1QnFqKc9ssY" target="_blank">1. Introdução à Química</a></li>
+        <li><a href="https://www.youtube.com/watch?v=E0y8uP7eZcw" target="_blank">2. Reações Químicas</a></li>
+        <li><a href="https://www.youtube.com/watch?v=l7G1H2E0v3E" target="_blank">3. Tabela Periódica dos Elementos</a></li>
+        <li><a href="https://www.youtube.com/watch?v=3cZVY4gG1Yg" target="_blank">4. Química Orgânica</a></li>
+        <li><a href="https://www.youtube.com/watch?v=z2R9cDQLB-I" target="_blank">5. Experimentos de Química Divertidos</a></li>
     </ul>
-  </nav>
-  <main>
-    <h2>O que é Química?</h2>
-    <p>A química é a ciência que estuda a matéria, suas propriedades, composição, estrutura e as transformações que ela sofre.</p>
-  </main>
+</section>
+
 </body>
 </html>
