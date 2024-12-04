@@ -4,6 +4,8 @@ body {
     background-color: #e18aec;
     margin: 0;
     padding: 20px;
+    animation: myanimation 2s infinite;
+    border-radius: 10px;
   }
   
   h1 {
