@@ -3,5 +3,16 @@ header {
 }
 
 section {
-    background-color: #e0e0e0; /* Cor de fundo cinza um pouco mais escuro */
+    background-color: #ff338b9a; /* Cor de fundo cinza um pouco mais escuro */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 10px;
 }
